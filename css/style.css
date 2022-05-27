@@ -39,6 +39,11 @@ body{
     justify-content: space-around;
 }
 
+#alinhaTitulo{
+    display: flex;
+    align-items: center;
+}
+
 #alinhamento{
     display: flex;
     align-items: center;  
