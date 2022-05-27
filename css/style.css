@@ -21,3 +21,124 @@ body{
     height: 100vh;
     z-index: 1;
 }
+
+.menu{
+    margin-left: 120px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 16px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#alinhamento{
+    display: flex;
+    align-items: center;  
+} 
+
+#espaco{
+    width: 20px;
+}
+
+#linhaHorizontal{
+    height: 5px;
+    width: 100px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.abas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.lista{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#negrito{
+    font-weight: bold;
+}
+
+.linhaVertical{
+    border-right: 1px solid #FFFFFF;
+    height: 38px;
+}
+
+.tamanho{
+    width: 85px;
+}
+
+.principal{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.titulo{
+    font-size: 32px;
+    font-family: monospace;
+    color: #FFFFFF;
+}
+
+.texto{
+    font-family: monospace;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.botao{
+    background-color: rgba(44, 44, 45, 0.9);
+    font-family: monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 248px;
+    height: 45px;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.61);
+    margin-left: 150px;
+}
+
+.botao:hover{
+    background-color: rgba(85, 85, 87, 0.9);
+}
+
+img{
+    margin: 26px;
+}
+
+.posicionamentoBolinhas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bolinhaCheia{
+    background-color: #FFFFFF;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
+
+.bolinhasVazias{
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
