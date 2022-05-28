@@ -149,3 +149,18 @@ img{
     border-radius: 100%;
     border: 2px solid #FFFFFF;
 }
+
+/*Teste responsividade*/
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: black;
+        background-size: 4000px;
+        background-position: top;
+    }
+
+    .container{
+        width: 150vh;
+        height: 310vh;
+    }
+}
