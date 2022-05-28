@@ -8,8 +8,8 @@
 body{
     background-image: url("../assets/backgroundSecond.png");
     background-size: cover;
-    padding-left: 55px;
-    padding-right: 85px;
+    padding-left: 85px;
+    padding-right: 105px;
 }
 
 .menu{
@@ -103,8 +103,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cardCabecalho{
-    background-color: #14d714;
+.principalCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 252px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.cardCabecalhoBulbasaur{
+    background-color: #32CD32;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     text-align: end;
@@ -113,21 +126,88 @@ body{
     padding-bottom: 2px;
 }
 
-.card{
-    background-color: #FFFFFF;
-    width: 202px;
-    border-radius: 15px;
-}
-
-.nomePokemon{
+.nomePokemonBulbasaur{
     text-align: center;
-    color: #14d714;
+    color: #32CD32;
     padding-bottom: 10px;
 }
 
-.cardRodape{
+.cardRodapeBulbasaur{
     height: 14px;
-    background-color: #14d714;
+    background-color: #32CD32;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+.cardCabecalhoSquirtle{
+    background-color: #1E90FF;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: end;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonSquirtle{
+    text-align: center;
+    color: #1E90FF;
+    padding-bottom: 10px;
+}
+
+.cardRodapeSquirtle{
+    height: 14px;
+    background-color: #1E90FF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.cardCabecalhoCharmander{
+    background-color: #FF4500;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: end;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonCharmander{
+    text-align: center;
+    color: #FF4500;
+    padding-bottom: 10px;
+}
+
+.cardRodapeCharmander{
+    height: 14px;
+    background-color: #FF4500;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.cardCabecalhoCarterpie{
+    background-color: #9ACD32;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: end;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonCarterpie{
+    text-align: center;
+    color: #9ACD32;
+    padding-bottom: 10px;
+}
+
+.cardRodapeCarterpie{
+    height: 14px;
+    background-color: #9ACD32;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
