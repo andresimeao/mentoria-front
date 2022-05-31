@@ -216,8 +216,18 @@ body{
 
 .tituloPokemon{
     color: #FFFFFF;
+    size: 7;
 }
 
-.informacao{
+.informacaoPokemon{
     color: #FFFFFF;
+}
+
+.imagem{
+    width: 395px;
+    height: 385px;
+}
+
+.pokemonPrincipal{
+
 }
