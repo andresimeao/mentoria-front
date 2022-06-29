@@ -248,7 +248,7 @@ body{
 .informacaoPokemon{
     color: #FFFFFF;
     width: 375px;
-    height: 9000x;
+    height: 950x;
     border-radius: 15px;
     background-color:  #1f1f1f ;
 }
@@ -260,7 +260,7 @@ body{
 
 .topo{
     padding: 28px;
-    padding-bottom: 0gitpx;
+    padding-bottom: 0px;
     border-bottom: 2px solid orange ;
 }
 
@@ -275,10 +275,30 @@ body{
     margin-top: 15px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
 }
 
 .bordaTituloFooter{
     border-bottom: 2px solid orange ;
 }
+
+.alinhaStatus{
+    display: flex;
+    align-items: center;
+}
+
+.status{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+}
+
+.barraDeStatus{
+    border-radius: 20px;
+    height: 20px;
+    width: 295px;
+    background-color: gray;
+}
+
