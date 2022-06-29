@@ -248,12 +248,13 @@ body{
 .informacaoPokemon{
     color: #FFFFFF;
     width: 375px;
-    height: 950x;
+    height: 550px;
     border-radius: 15px;
     background-color:  #1f1f1f ;
 }
 
 .imagem{
+    margin: 25px;
     width: 395px;
     height: 385px;
 }
@@ -279,23 +280,31 @@ body{
     line-height: 18px;
 }
 
+.atributo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
 .bordaTituloFooter{
     border-bottom: 2px solid orange ;
+    margin-bottom: 18px;
 }
 
 .alinhaStatus{
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 
 .status{
-    text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 12px;
+    margin: 5px;
 }
 
 .barraDeStatus{
+    margin: 8px;
+    margin-right: 15px;
     border-radius: 20px;
     height: 20px;
     width: 295px;
