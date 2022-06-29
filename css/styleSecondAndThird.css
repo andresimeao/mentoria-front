@@ -90,6 +90,7 @@ body{
     text-indent: 18px;
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0, 0.432);
 }
 
 .caixaSelecao{
@@ -101,6 +102,7 @@ body{
     text-indent: 18px;
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.432);
 }
 
 .principalCards{
@@ -258,7 +260,7 @@ body{
 
 .topo{
     padding: 28px;
-    padding-bottom: 0px;
+    padding-bottom: 0gitpx;
     border-bottom: 2px solid orange ;
 }
 
