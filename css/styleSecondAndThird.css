@@ -113,10 +113,20 @@ body{
     background-color: #FFFFFF;
     width: 252px;
     border-radius: 15px;
-    margin: 5px;
+    margin-right: 10px;
+    margin-bottom: 44px;
+}
+
+.pokemonImagem{
+    z-index: 0;
+    height: 128px;
+    width: 128px;
 }
 
 .cardCabecalhoBulbasaur{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
     background-color: #32CD32;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -142,6 +152,9 @@ body{
 
 
 .cardCabecalhoSquirtle{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
     background-color: #1E90FF;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -166,6 +179,9 @@ body{
 
 
 .cardCabecalhoCharmander{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
     background-color: #FF4500;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -190,6 +206,9 @@ body{
 
 
 .cardCabecalhoCarterpie{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
     background-color: #9ACD32;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -214,13 +233,22 @@ body{
 
 /*Terceira página*/
 
+.organizacaoCentral{
+    display: flex;
+    justify-content: center;
+}
+
 .tituloPokemon{
     color: #FFFFFF;
-    size: 7;
+    font-size: 52px;
 }
 
 .informacaoPokemon{
     color: #FFFFFF;
+    width: 375px;
+    height: 9000x;
+    border-radius: 15px;
+    background-color:  #1f1f1f ;
 }
 
 .imagem{
@@ -228,6 +256,27 @@ body{
     height: 385px;
 }
 
-.pokemonPrincipal{
+.topo{
+    padding: 28px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid orange ;
+}
 
+.descricaoTitulo{
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 12px;
+}
+
+.descricao{
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.bordaTituloFooter{
+    border-bottom: 2px solid orange ;
 }
