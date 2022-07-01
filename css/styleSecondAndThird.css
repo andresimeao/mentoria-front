@@ -8,7 +8,7 @@
 body{
     background-image: url("../assets/backgroundSecond.png");
     background-size: cover;
-    padding-left: 85px;
+    padding-left: 65px;
     padding-right: 105px;
 }
 
@@ -248,16 +248,25 @@ body{
 
 .informacaoPokemon{
     color: #FFFFFF;
-    width: 375px;
+    width: 380px;
     height: 550px;
     border-radius: 15px;
     background-color:  #1f1f1f ;
 }
 
 .imagem{
-    margin-right: 35px;
+    margin-right: 55px;
     width: 395px;
     height: 385px;
+}
+
+.atributos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.atributo{
+    margin: 20px;
 }
 
 .topo{
@@ -314,14 +323,68 @@ body{
     background-color: gray;
 }
 
-.barraDeStatusCheia{
+.barraDeStatusCheiaHP{
     position: absolute;
     z-index: 1;
     margin: 8px;
-    margin-right: 55px;
+    margin-right: 35px;
     border-radius: 20px;
     height: 20px;
-    width: 255px;
+    width: 275px;
     background-color: orange;
 }
 
+.barraDeStatusCheiaATK{
+    position: absolute;
+    z-index: 1;
+    margin: 8px;
+    margin-right: 108px;
+    border-radius: 20px;
+    height: 20px;
+    width: 204px;
+    background-color: orange;
+}
+
+.barraDeStatusCheiaDEF{
+    position: absolute;
+    z-index: 1;
+    margin: 8px;
+    margin-right: 146px;
+    border-radius: 20px;
+    height: 20px;
+    width: 166px;
+    background-color: orange;
+}
+
+.barraDeStatusCheiaSpP{
+    position: absolute;
+    z-index: 1;
+    margin: 8px;
+    margin-right: 106px;
+    border-radius: 20px;
+    height: 20px;
+    width: 206px;
+    background-color: orange;
+}
+
+.barraDeStatusCheiaSpD{
+    position: absolute;
+    z-index: 1;
+    margin: 8px;
+    margin-right: 72px;
+    border-radius: 20px;
+    height: 20px;
+    width: 242px;
+    background-color: orange;
+}
+
+.barraDeStatusCheiaspd{
+    position: absolute;
+    z-index: 1;
+    margin: 8px;
+    margin-right: 172px;
+    border-radius: 20px;
+    height: 20px;
+    width: 142px;
+    background-color: orange;
+}
