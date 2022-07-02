@@ -9,17 +9,7 @@ body{
     background-image: url("../assets/backgroundSecond.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 65px;
-    padding-right: 105px;
     z-index: 0;
-}
-
-.fundo{
-    height: 600px;
-    width: 800px;
-    background-color: orange;
-    background-position: bottom;
-    z-index: 1;
 }
 
 .menu{
@@ -245,6 +235,16 @@ body{
 
 /*Terceira página*/
 
+.fundo{
+    height: 592px;
+    width: 1310px;
+    background-image: linear-gradient(to bottom, rgba(255, 140, 0, 0), rgba(255, 140, 0, 1));
+    background-position: bottom;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .organizacaoCentral{
     display: flex;
     justify-content: center;
@@ -262,12 +262,14 @@ body{
     height: 550px;
     border-radius: 15px;
     background-color:  #1f1f1f ;
+    z-index: 1;
 }
 
 .imagem{
     margin-right: 55px;
     width: 395px;
     height: 385px;
+    z-index: 1;
 }
 
 .atributos{
