@@ -7,9 +7,19 @@
 
 body{
     background-image: url("../assets/backgroundSecond.png");
+    background-repeat: no-repeat;
     background-size: cover;
     padding-left: 65px;
     padding-right: 105px;
+    z-index: 0;
+}
+
+.fundo{
+    height: 600px;
+    width: 800px;
+    background-color: orange;
+    background-position: bottom;
+    z-index: 1;
 }
 
 .menu{
@@ -320,7 +330,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 295px;
-    background-color: gray;
+    background-color: #dcdcdc;
 }
 
 .barraDeStatusCheiaHP{
@@ -331,7 +341,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 275px;
-    background-color: orange;
+    background-color: #ff8c00;
 }
 
 .barraDeStatusCheiaATK{
@@ -342,7 +352,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 204px;
-    background-color: orange;
+    background-color: #ff8c00;
 }
 
 .barraDeStatusCheiaDEF{
@@ -353,7 +363,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 166px;
-    background-color: orange;
+    background-color: #ff8c00;
 }
 
 .barraDeStatusCheiaSpP{
@@ -364,7 +374,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 206px;
-    background-color: orange;
+    background-color: #ff8c00;
 }
 
 .barraDeStatusCheiaSpD{
@@ -375,7 +385,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 242px;
-    background-color: orange;
+    background-color: #ff8c00;
 }
 
 .barraDeStatusCheiaspd{
@@ -386,5 +396,5 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 142px;
-    background-color: orange;
+    background-color: #ff8c00;
 }
