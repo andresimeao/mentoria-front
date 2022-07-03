@@ -400,3 +400,19 @@ body{
     width: 142px;
     background-color: #ff8c00;
 }
+
+@media only screen and (max-width: 960px) {
+
+    .organizacaoCentral{
+        display: block;
+    }
+
+    .abas{
+        display: none;
+    }
+
+    .imagem{
+        height: auto;
+        width: auto;
+    }
+}
