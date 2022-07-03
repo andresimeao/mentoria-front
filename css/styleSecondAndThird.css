@@ -403,16 +403,39 @@ body{
 
 @media only screen and (max-width: 960px) {
 
-    .organizacaoCentral{
-        display: block;
+    body{
+        background-size: auto;
     }
 
     .abas{
         display: none;
     }
 
-    .imagem{
-        height: auto;
-        width: auto;
+    .organizacaoCentral{
+        display: block;
+        justify-content: center;
     }
+
+    .pokemonPrincipal{
+        display: block;
+        justify-content: center;
+    }
+
+    .imagem{
+        margin-left: 1455px;
+        margin: 50px;
+        height: 1050px;
+        width: 900px;
+        z-index: 1;
+    }
+ 
+    .informacaoPokemon{
+        color: #FFFFFF;
+        width: 1320px;
+        height: 3850px;
+        border-radius: 15px;
+        background-color:  #1f1f1f ;
+        z-index: 1;
+    }
+
 }
