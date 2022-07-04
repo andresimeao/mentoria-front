@@ -427,7 +427,7 @@ body{
     }
 
     .tituloPagina{
-        margin: 20px;
+        margin: 16px;
         height: 65px;
         width: 120px;
         font-size: 26px;
@@ -446,13 +446,13 @@ body{
     }
 
     .barrasMenu{
-        margin: 6px;
+        margin: 12px;
     }
 
     .barraMenu{
         margin: 8px;
         height: 4px;
-        width: 48px;
+        width: 40px;
         background-color: #FFFFFF;
     }
 
