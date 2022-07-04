@@ -414,8 +414,21 @@ body{
         margin-right: 0px;
     }
 
+    .logo{
+        padding: 0px;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #alinhaTitulo{
+        display: flex;
+        align-items: start;
+    }
+
     .tituloPagina{
-        height: 0px;
+        margin: 20px;
+        height: 65px;
         width: 120px;
         font-size: 26px;
     }
@@ -430,6 +443,17 @@ body{
 
     .abas{
         display: none;
+    }
+
+    .barrasMenu{
+        margin: 6px;
+    }
+
+    .barraMenu{
+        margin: 8px;
+        height: 4px;
+        width: 48px;
+        background-color: #FFFFFF;
     }
 
     .organizacaoCentral{
