@@ -428,8 +428,8 @@ body{
 
     .tituloPagina{
         margin: 16px;
-        height: 65px;
-        width: 120px;
+        height: 36px;
+        width: 124px;
         font-size: 26px;
     }
 
@@ -456,10 +456,14 @@ body{
         background-color: #FFFFFF;
     }
 
+    .linhaVazia{
+        display: none;
+    }
+
     .fundo{
         display: flex;
         justify-content: left;
-        width: 400px;
+        width: 324px;
     }
 
     .organizacaoCentral{
@@ -474,8 +478,8 @@ body{
 
     .imagem{
         margin: 24px;
-        height: 255px;
-        width: 290px;
+        height: 260px;
+        width: 274px;
         z-index: 1;
     }
  
@@ -510,6 +514,10 @@ body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 22px;
         line-height: 18px;
+    }
+
+    .atributo {
+        font-size: 20px;
     }
 
 }
