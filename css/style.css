@@ -152,15 +152,60 @@ img{
 
 /*Teste responsividade*/
 
-@media screen and (max-width: 800px) {
-    body{
-        background-color: black;
-        background-size: 4000px;
-        background-position: top;
+@media only screen and (max-width: 960px) {
+
+    .menu{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    .container{
-        width: 150vh;
-        height: 310vh;
+    .logo{
+        padding: 0px;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #alinhaTitulo{
+        display: flex;
+        align-items: start;
+    }
+
+    .tituloPagina{
+        margin: 16px;
+        height: 36px;
+        width: 124px;
+        font-size: 26px;
+    }
+
+    #espaco{
+        display: none;
+    }
+
+    #linhaHorizontal{
+        display: none;
+    }
+
+    .abas{
+        display: none;
+    }
+
+    .barrasMenu{
+        margin: 12px;
+    }
+
+    .barraMenu{
+        margin: 8px;
+        height: 4px;
+        width: 40px;
+        background-color: #FFFFFF;
+    }
+
+    .linhaVazia{
+        display: none;
+    }
+
+    img{
+        display: none;
     }
 }

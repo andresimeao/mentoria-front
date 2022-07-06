@@ -406,10 +406,6 @@ body{
 
 @media only screen and (max-width: 960px) {
 
-    body{
-        background-size: cover;
-    }
-
     .menu{
         margin-left: 0px;
         margin-right: 0px;
@@ -529,7 +525,7 @@ body{
     .barraDeStatus{
         width: 220px;
         height: 24px;
-        margin: 10px;
+        margin: 8px;
         margin-right: 22px;
     }
 
