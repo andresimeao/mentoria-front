@@ -259,9 +259,10 @@ body{
 .informacaoPokemon{
     color: #FFFFFF;
     width: 380px;
-    height: 550px;
-    border-radius: 15px;
+    height: 520px;
+    border-radius: 5px;
     background-color:  #1f1f1f ;
+    box-shadow: black 0px 1px 10px 1px;
     z-index: 1;
 }
 
@@ -496,6 +497,7 @@ body{
         height: 1055px;
         border-radius: 0px;
         background-color:  #1f1f1f ;
+        box-shadow: none;
         z-index: 1;
     }
 
@@ -503,8 +505,8 @@ body{
         text-align: center;
         font-size: 32px;
         font-family: Arial, Helvetica, sans-serif;
-        padding-top: 14px;
-        padding-bottom: 12px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
     .descricao {
@@ -520,4 +522,44 @@ body{
         font-size: 20px;
     }
 
+    .status{
+        font-size: 20px;
+    }
+
+    .barraDeStatus{
+        width: 220px;
+        height: 24px;
+        margin: 10px;
+        margin-right: 22px;
+    }
+
+    .barraDeStatusCheiaATK{
+        width: 134px;
+        height: 24px;
+    }
+
+    .barraDeStatusCheiaDEF{
+        width: 96px;
+        height: 24px;
+    }
+
+    .barraDeStatusCheiaHP{
+        width: 208px;
+        height: 24px;
+    }
+
+    .barraDeStatusCheiaSpD{
+        width: 170px;
+        height: 24px;
+    }
+
+    .barraDeStatusCheiaspd{
+        width: 70px;
+        height: 24px;
+    }
+
+    .barraDeStatusCheiaSpP{
+        width: 136px;
+        height: 24px;
+    }
 }
