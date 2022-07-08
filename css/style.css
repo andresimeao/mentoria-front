@@ -154,6 +154,17 @@ img{
 
 @media only screen and (max-width: 960px) {
 
+    .body{
+        background-position: center;
+    }
+
+    .container{
+        width: 288px;
+        height: 1200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .menu{
         margin-left: 0px;
         margin-right: 0px;
