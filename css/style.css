@@ -189,6 +189,10 @@ img{
         font-size: 26px;
     }
 
+    #alinhaTitulo{
+        margin: 20px;
+    }
+
     #espaco{
         display: none;
     }
@@ -218,5 +222,18 @@ img{
 
     img{
         display: none;
+    }
+
+    .posicionamentoBolinhas{
+        display: none;
+    }
+
+    .principal{
+        margin-left: 0px;
+    }
+
+    .titulo{
+        margin-right: 30px;
+        text-align: right;
     }
 }
