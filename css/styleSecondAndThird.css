@@ -20,6 +20,7 @@ body{
 }
 
 .logo{
+    margin-left: -14px;
     padding: 16px;
     color: #FFFFFF;
     font-family: monospace;
@@ -50,10 +51,11 @@ body{
 }
 
 .abas{
+    margin-right: 122px;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
 }
 
 .lista{
@@ -77,13 +79,14 @@ body{
 }
 
 .alinhaPesquisa{
+    margin-right: 98px;
     display: flex;
     justify-content: flex-end;
 }
 
 .caixaPesquisa{
     margin: 15px;
-    width: 208px;
+    width: 252px;
     height: 38px;
     border-radius: 25px;
     border: 1px solid gray;
@@ -95,7 +98,7 @@ body{
 
 .caixaSelecao{
     margin: 15px;
-    width: 208px;
+    width: 252px;
     height: 38px;
     border-radius: 25px;
     border: 1px solid gray;
@@ -106,9 +109,15 @@ body{
 }
 
 .principalCards{
+    margin-left: 98px;
+    margin-right: 98px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.imgCard{
+    display: block;
 }
 
 .card{
@@ -116,23 +125,26 @@ body{
     width: 252px;
     border-radius: 15px;
     margin-right: 10px;
-    margin-bottom: 44px;
+    margin-bottom: 20px;
 }
 
 .pokemonImagem{
-    z-index: 0;
+    z-index: 2;
+    margin-left: 54px;
     height: 128px;
     width: 128px;
 }
 
 .cardCabecalhoBulbasaur{
     z-index: 1;
+    margin-top: -52px;
+    height: 32px;
     display: flex;
-    justify-content: center;
-    background-color: #32CD32;
+    justify-content: end;
+    align-items: end;
+    background-color: #78C850;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: end;
     color: #FFFFFF;
     padding-right: 8px;
     padding-bottom: 2px;
@@ -140,27 +152,28 @@ body{
 
 .nomePokemonBulbasaur{
     text-align: center;
-    color: #32CD32;
-    padding-bottom: 10px;
+    color: #78C850;
+    padding-bottom: 16px;
 }
 
 .cardRodapeBulbasaur{
     height: 14px;
-    background-color: #32CD32;
+    background-color: #78C850;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
 
-
 .cardCabecalhoSquirtle{
     z-index: 1;
     display: flex;
-    justify-content: center;
-    background-color: #1E90FF;
+    margin-top: -52px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+    background-color:  #6890F0;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: end;
     color: #FFFFFF;
     padding-right: 8px;
     padding-bottom: 2px;
@@ -168,13 +181,13 @@ body{
 
 .nomePokemonSquirtle{
     text-align: center;
-    color: #1E90FF;
-    padding-bottom: 10px;
+    color: #6890F0;
+    padding-bottom: 16px;
 }
 
 .cardRodapeSquirtle{
     height: 14px;
-    background-color: #1E90FF;
+    background-color: #6890F0;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -183,11 +196,13 @@ body{
 .cardCabecalhoCharmander{
     z-index: 1;
     display: flex;
-    justify-content: center;
-    background-color: #FF4500;
+    margin-top: -52px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+    background-color: #F08030;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: end;
     color: #FFFFFF;
     padding-right: 8px;
     padding-bottom: 2px;
@@ -195,13 +210,13 @@ body{
 
 .nomePokemonCharmander{
     text-align: center;
-    color: #FF4500;
-    padding-bottom: 10px;
+    color: #F08030;
+    padding-bottom: 16px;
 }
 
 .cardRodapeCharmander{
     height: 14px;
-    background-color: #FF4500;
+    background-color: #F08030;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -210,11 +225,13 @@ body{
 .cardCabecalhoCarterpie{
     z-index: 1;
     display: flex;
-    justify-content: center;
-    background-color: #9ACD32;
+    margin-top: -52px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+    background-color: #A8B820;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: end;
     color: #FFFFFF;
     padding-right: 8px;
     padding-bottom: 2px;
@@ -222,18 +239,20 @@ body{
 
 .nomePokemonCarterpie{
     text-align: center;
-    color: #9ACD32;
-    padding-bottom: 10px;
+    color: #A8B820;
+    padding-bottom: 16px;
 }
 
 .cardRodapeCarterpie{
     height: 14px;
-    background-color: #9ACD32;
+    background-color: #A8B820;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
+
 /*Terceira página*/
+
 
 .fundo{
     height: 592px;
