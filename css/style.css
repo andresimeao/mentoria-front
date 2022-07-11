@@ -150,9 +150,9 @@ img{
     border: 2px solid #FFFFFF;
 }
 
-/*Teste responsividade*/
+/*Responsividade mobile da terceira página, tela aberta*/
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 660px) {
 
     .body{
         background-position: center;
@@ -245,7 +245,58 @@ img{
         font-size: 20px;
     }
 
-    .botao{
-        margin-left: 18px;
+    .quebraDeLinha{
+        display: none;
     }
+
+    .botao{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 280px;
+    }
+}
+
+/*Responsividade mobile da terceira página, menu aberto*/
+
+@media only screen and (max-width: 318px) {
+
+    .container{
+        width: 318px;
+        background-color: black;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .barraMenu{
+        display: none;
+    }
+
+    .linhaVertical{
+        border-bottom: 1px solid white;
+        display: block;
+        height: 10px;
+        width: 170px;
+        border-right: 0px;
+        margin-bottom: 12px;
+    }
+
+    .abas{
+        display: block;
+        font-size: 25px;
+    }
+
+    .titulo{
+        display: none;
+    }
+
+    .texto{
+        display: none;
+    }
+
+    .botao{
+        display: none;
+    }
+
 }
