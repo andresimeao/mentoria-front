@@ -61,6 +61,10 @@ body{
     border-bottom: 1px solid #FFFFFF;
 }
 
+.iconeFecha{
+    display: none;
+}
+
 .abas{
     display: flex;
     justify-content: space-between;
@@ -180,6 +184,7 @@ img{
     #alinhaTitulo{
         display: flex;
         align-items: start;
+        margin: 20px;
     }
 
     .tituloPagina{
@@ -187,10 +192,6 @@ img{
         height: 36px;
         width: 124px;
         font-size: 26px;
-    }
-
-    #alinhaTitulo{
-        margin: 20px;
     }
 
     #espaco{
@@ -273,18 +274,33 @@ img{
         display: none;
     }
 
+    .iconeFecha{
+        display: block;
+        font-size: 40px;
+        margin-right: 62px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+    }
+
+    /*Aqui a linha vertical fica horizontal*/
+
     .linhaVertical{
         border-bottom: 1px solid white;
         display: block;
-        height: 10px;
+        height: 1px;
         width: 170px;
         border-right: 0px;
-        margin-bottom: 12px;
+        margin-top: 21px;
+        margin-bottom: 22px;
     }
 
     .abas{
         display: block;
         font-size: 25px;
+    }
+
+    .lista{
+        font-weight: bold;
+        font-size: 22px;
     }
 
     .titulo{
