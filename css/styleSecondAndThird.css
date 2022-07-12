@@ -9,6 +9,7 @@ body{
     background-image: url("../assets/backgroundSecond.png");
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
     z-index: 0;
 }
 
@@ -254,16 +255,6 @@ body{
 /*Terceira página*/
 
 
-.fundo{
-    height: 592px;
-    width: 1310px;
-    background-image: linear-gradient(to bottom, rgba(255, 140, 0, 0), rgba(255, 140, 0, 1));
-    background-position: bottom;
-    z-index: 0;
-    display: flex;
-    justify-content: center;
-}
-
 .organizacaoCentral{
     display: flex;
     justify-content: center;
@@ -273,6 +264,7 @@ body{
     color: #FFFFFF;
     font-size: 52px;
     text-align: center;
+    z-index: 2;
 }
 
 .informacaoPokemon{
@@ -282,14 +274,14 @@ body{
     border-radius: 5px;
     background-color:  #1f1f1f ;
     box-shadow: black 0px 1px 10px 1px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .imagem{
     margin-right: 55px;
     width: 395px;
     height: 385px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .atributos{
@@ -304,7 +296,7 @@ body{
 .topo{
     padding: 28px;
     padding-bottom: 0px;
-    border-bottom: 2px solid #ff8c00 ;
+    border-bottom: 2px solid #F08030;
 }
 
 .descricaoTitulo{
@@ -328,7 +320,7 @@ body{
 }
 
 .bordaTituloFooter{
-    border-bottom: 2px solid #ff8c00 ;
+    border-bottom: 2px solid #F08030;
     margin-bottom: 18px;
 }
 
@@ -363,7 +355,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 275px;
-    background-color: #ff8c00;
+    background-color: #F08030;
 }
 
 .barraDeStatusCheiaATK{
@@ -374,7 +366,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 204px;
-    background-color: #ff8c00;
+    background-color: #F08030;
 }
 
 .barraDeStatusCheiaDEF{
@@ -385,7 +377,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 166px;
-    background-color: #ff8c00;
+    background-color: #F08030;
 }
 
 .barraDeStatusCheiaSpP{
@@ -396,7 +388,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 206px;
-    background-color: #ff8c00;
+    background-color: #F08030;
 }
 
 .barraDeStatusCheiaSpD{
@@ -407,7 +399,7 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 242px;
-    background-color: #ff8c00;
+    background-color: #F08030;
 }
 
 .barraDeStatusCheiaspd{
@@ -418,10 +410,47 @@ body{
     border-radius: 20px;
     height: 20px;
     width: 142px;
-    background-color: #ff8c00;
+    background-color: #F08030;
+}
+
+.fundo{
+    margin-top: -174px;
+    height: 592px;
+    width: 1310px;
+    background-color: #F08030;
+    z-index: 1;
+}
+
+.sombraFundo{
+    margin-top: -620px;
+    height: 592px;
+    width: 1310px;
+    background-color: rgba(240, 128, 48, .5);
+    z-index: 0;
+}
+
+.sombraRedonda{
+    margin-left: -50px;
+    margin-top: -298px;
+    height: 332px;
+    width: 895px;
+    border-radius: 50%;
+    background-color: rgba(240, 128, 48, .5);
+    z-index: 0;
+}
+
+.redonda{
+    margin-left: -38px;
+    margin-top: -302px;
+    height: 314px;
+    width: 870px;
+    border-radius: 50%;
+    background-color: #F08030;
+    z-index: 0;
 }
 
 /* Responsividade da terceira página */
+
 
 @media only screen and (max-width: 960px) {
 
