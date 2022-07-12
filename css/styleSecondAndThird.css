@@ -454,6 +454,12 @@ body{
 
 @media only screen and (max-width: 960px) {
 
+    body{
+        position: relative;
+        background-size: 900px;
+        height: 1226px;
+    }
+
     .menu{
         margin-left: 0px;
         margin-right: 0px;
@@ -472,7 +478,7 @@ body{
     }
 
     .tituloPagina{
-        margin: 16px;
+        margin: 26px;
         height: 36px;
         width: 124px;
         font-size: 26px;
@@ -505,12 +511,6 @@ body{
         display: none;
     }
 
-    .fundo{
-        display: flex;
-        justify-content: left;
-        width: 324px;
-    }
-
     .organizacaoCentral{
         display: block;
         justify-content: center;
@@ -528,6 +528,42 @@ body{
         z-index: 1;
     }
  
+    .redondaMobile{
+        margin-left: -45px;
+        margin-top: -294px;
+        height: 314px;
+        width: 226px;
+        border-radius: 50%;
+        background-color: #F08030;
+        z-index: 0;
+    }
+
+    .sombraFundoMobile{
+        margin-top: -284px;
+        height: 255px;
+        width: 325px;
+        background-color: rgba(240, 128, 48, .5);
+        z-index: 0;   
+    }
+
+    .sombraRedondaMobile{
+        margin-left: -50px;
+        margin-top: -294px;
+        height: 310px;
+        width: 236px;
+        border-radius: 50%;
+        background-color: rgba(240, 128, 48, .5);
+        z-index: 0;    
+    }
+
+    .fundoMobile{
+        margin-top: -260px;
+        height: 268px;
+        width: 325px;
+        background-color: #F08030;
+        z-index: 1;
+    }
+
     .tituloPokemon{
         text-align: left;
         font-size: 40px;
@@ -538,7 +574,7 @@ body{
     .informacaoPokemon{
         color: #FFFFFF;
         width: 325px;
-        height: 1055px;
+        height: 764px;
         border-radius: 0px;
         background-color:  #1f1f1f ;
         box-shadow: none;
@@ -606,4 +642,25 @@ body{
         width: 136px;
         height: 24px;
     }
+
+    .fundoPokemon{
+        display: none;
+    }
+
+    .sombraFundo{
+        display: none;
+    }
+
+    .fundo{
+        display: none;
+    }
+
+    .redonda{
+        display: none;
+    }
+
+    .sombraRedonda{
+        display: none;
+    }
+
 }
