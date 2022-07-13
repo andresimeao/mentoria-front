@@ -66,10 +66,6 @@ body{
     font-family: monospace;
 }
 
-#negrito{
-    font-weight: bold;
-}
-
 .linhaVertical{
     border-right: 1px solid #FFFFFF;
     height: 38px;
@@ -78,182 +74,6 @@ body{
 .tamanho{
     width: 85px;
 }
-
-.alinhaPesquisa{
-    margin-right: 98px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.caixaPesquisa{
-    margin: 15px;
-    width: 252px;
-    height: 38px;
-    border-radius: 25px;
-    border: 1px solid gray;
-    text-indent: 18px;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0, 0.432);
-}
-
-.caixaSelecao{
-    margin: 15px;
-    width: 252px;
-    height: 38px;
-    border-radius: 25px;
-    border: 1px solid gray;
-    text-indent: 18px;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.432);
-}
-
-.principalCards{
-    margin-left: 98px;
-    margin-right: 98px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.imgCard{
-    display: block;
-}
-
-.card{
-    background-color: #FFFFFF;
-    width: 252px;
-    border-radius: 15px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-
-.pokemonImagem{
-    z-index: 2;
-    margin-left: 54px;
-    height: 128px;
-    width: 128px;
-}
-
-.cardCabecalhoBulbasaur{
-    z-index: 1;
-    margin-top: -52px;
-    height: 32px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    background-color: #78C850;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    color: #FFFFFF;
-    padding-right: 8px;
-    padding-bottom: 2px;
-}
-
-.nomePokemonBulbasaur{
-    text-align: center;
-    color: #78C850;
-    padding-bottom: 16px;
-}
-
-.cardRodapeBulbasaur{
-    height: 14px;
-    background-color: #78C850;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-
-.cardCabecalhoSquirtle{
-    z-index: 1;
-    display: flex;
-    margin-top: -52px;
-    height: 32px;
-    justify-content: end;
-    align-items: end;
-    background-color:  #6890F0;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    color: #FFFFFF;
-    padding-right: 8px;
-    padding-bottom: 2px;
-}
-
-.nomePokemonSquirtle{
-    text-align: center;
-    color: #6890F0;
-    padding-bottom: 16px;
-}
-
-.cardRodapeSquirtle{
-    height: 14px;
-    background-color: #6890F0;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-
-.cardCabecalhoCharmander{
-    z-index: 1;
-    display: flex;
-    margin-top: -52px;
-    height: 32px;
-    justify-content: end;
-    align-items: end;
-    background-color: #F08030;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    color: #FFFFFF;
-    padding-right: 8px;
-    padding-bottom: 2px;
-}
-
-.nomePokemonCharmander{
-    text-align: center;
-    color: #F08030;
-    padding-bottom: 16px;
-}
-
-.cardRodapeCharmander{
-    height: 14px;
-    background-color: #F08030;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-
-.cardCabecalhoCarterpie{
-    z-index: 1;
-    display: flex;
-    margin-top: -52px;
-    height: 32px;
-    justify-content: end;
-    align-items: end;
-    background-color: #A8B820;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    color: #FFFFFF;
-    padding-right: 8px;
-    padding-bottom: 2px;
-}
-
-.nomePokemonCarterpie{
-    text-align: center;
-    color: #A8B820;
-    padding-bottom: 16px;
-}
-
-.cardRodapeCarterpie{
-    height: 14px;
-    background-color: #A8B820;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-
-/*Terceira página*/
-
 
 .organizacaoCentral{
     display: flex;
@@ -448,6 +268,8 @@ body{
     background-color: #F08030;
     z-index: 0;
 }
+
+
 
 /* Responsividade da terceira página */
 

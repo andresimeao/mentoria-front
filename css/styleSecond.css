@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../assets/backgroundSecond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.menu{
+    margin-left: 120px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: -14px;
+    padding: 16px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#alinhaTitulo{
+    display: flex;
+    align-items: center;
+}
+
+#alinhamento{
+    display: flex;
+    align-items: center;  
+} 
+
+#espaco{
+    width: 20px;
+}
+
+#linhaHorizontal{
+    height: 5px;
+    width: 100px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.abas{
+    margin-right: 122px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#negrito{
+    font-weight: bold;
+}
+
+.linhaVertical{
+    border-right: 1px solid #FFFFFF;
+    height: 38px;
+}
+
+.tamanho{
+    width: 85px;
+}
+
+.alinhaPesquisa{
+    margin-right: 98px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixaPesquisa{
+    margin: 15px;
+    width: 252px;
+    height: 38px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    text-indent: 18px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0, 0.432);
+}
+
+.caixaSelecao{
+    margin: 15px;
+    width: 252px;
+    height: 38px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    text-indent: 18px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.432);
+}
+
+.principalCards{
+    margin-left: 98px;
+    margin-right: 98px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgCard{
+    display: block;
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 252px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.pokemonImagem{
+    z-index: 2;
+    margin-left: 54px;
+    height: 128px;
+    width: 128px;
+}
+
+.cardCabecalhoBulbasaur{
+    z-index: 1;
+    margin-top: -52px;
+    height: 32px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: #78C850;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonBulbasaur{
+    text-align: center;
+    color: #78C850;
+    padding-bottom: 16px;
+}
+
+.cardRodapeBulbasaur{
+    height: 14px;
+    background-color: #78C850;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.cardCabecalhoSquirtle{
+    z-index: 1;
+    display: flex;
+    margin-top: -52px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+    background-color:  #6890F0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonSquirtle{
+    text-align: center;
+    color: #6890F0;
+    padding-bottom: 16px;
+}
+
+.cardRodapeSquirtle{
+    height: 14px;
+    background-color: #6890F0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.cardCabecalhoCharmander{
+    z-index: 1;
+    display: flex;
+    margin-top: -52px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+    background-color: #F08030;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonCharmander{
+    text-align: center;
+    color: #F08030;
+    padding-bottom: 16px;
+}
+
+.cardRodapeCharmander{
+    height: 14px;
+    background-color: #F08030;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.cardCabecalhoCarterpie{
+    z-index: 1;
+    display: flex;
+    margin-top: -52px;
+    height: 32px;
+    justify-content: end;
+    align-items: end;
+    background-color: #A8B820;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+.nomePokemonCarterpie{
+    text-align: center;
+    color: #A8B820;
+    padding-bottom: 16px;
+}
+
+.cardRodapeCarterpie{
+    height: 14px;
+    background-color: #A8B820;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* Responsividade da segunda página */
+
+
+@media only screen and (max-width: 960px) {
+
+    body{
+        background-size: 1000px;
+        background-repeat: repeat;
+        width: 325px;
+    }
+
+    .menu{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logo{
+        padding: 0px;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #alinhaTitulo{
+        font-size: 16px;
+        display: flex;
+        margin-left: 30px;
+        align-items: center;
+    }
+
+    .tituloPagina{
+        margin: 26px;
+        height: 36px;
+        width: 124px;
+        font-size: 26px;
+    }
+
+    #espaco{
+        display: none;
+    }
+
+    #linhaHorizontal{
+        display: none;
+    }
+
+    .abas{
+        display: none;
+    }
+
+    .barrasMenu{
+        margin: 12px;
+    }
+
+    .barraMenu{
+        margin: 8px;
+        height: 4px;
+        width: 40px;
+        background-color: #FFFFFF;
+    }
+
+    .linhaVazia{
+        display: none;
+    }
+
+    .alinhaPesquisa{
+        margin-right: 0px;
+        display: block;
+        justify-content: center;
+    }
+
+    .caixaPesquisa{
+        width: 286px;
+        height: 36px;
+        margin-bottom: 8px;
+    }
+
+    .caixaSelecao{
+        width: 286px;
+        height: 36px;
+        margin-bottom: 5px;
+    }
+
+    .principalCards{
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .card{
+        width: 284px;
+    }
+
+    .numeroCard{
+        margin-left: 12px;
+    }
+
+    .pokemonImagem {
+        margin-left: 142px;
+    }
+
+    .cardCabecalhoBulbasaur {
+        margin-top: -112px;
+        justify-content: start;
+        height: 24px;
+    }
+
+    .nomePokemonBulbasaur {
+        text-align: left;
+        height: 44px;
+        margin: 10px;
+        font-size: 22px;
+    }
+
+
+}
+
